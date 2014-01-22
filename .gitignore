@@ -3,4 +3,4 @@
 Thumbs.db
 
 # Ignorar todos os diretórios e arquivos em um diretório.
-sass-cache/**/*
+.sass-cache/**/*
