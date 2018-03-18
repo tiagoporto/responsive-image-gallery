@@ -1,9 +1,5 @@
 # Responsive Image Gallery
 
-Just One Responsive Image Gallery made with css
+Just one CSS Responsive Image Gallery
 
-See the demo: [http://tiagoporto.github.io/responsive-image-gallery/](http://tiagoporto.github.io/responsive-image-gallery/)
-
-## Credits
-
-[Tiago Porto](http://tiagoporto.com)
+Check the [demo](http://tiagoporto.github.io/responsive-image-gallery)
