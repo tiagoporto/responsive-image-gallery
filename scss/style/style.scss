@@ -1,5 +1,5 @@
 //Goole Fonts
-@import url(http://fonts.googleapis.com/css?family=Exo+2:900,500);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:900,500);
 //Compass
 @import "compass";
 //Reset
@@ -7,65 +7,61 @@
 //Simple Grid
 @import "../grid/simplegrid.scss";
 
-
 //Variables
 $larguraTotal: 100%;
-$margemEntreImagens:1%;
-$linksColor:#FF8000;
+$margemEntreImagens: 1%;
+$linksColor: #ff8000;
 
 //Functions
-@function calc-em($target-px, $context:32) {
+@function calc-em($target-px, $context: 32) {
   @return ($target-px / $context) * 1em;
 }
 
-
 //Styles
-body{
-	background: #161614;
-	font: 500 2em/1em 'Exo 2', sans-serif;
-	letter-spacing: calc-em(1);
-	color: #FFF;
+body {
+  background: #161614;
+  font: 500 2em/1em "Exo 2", sans-serif;
+  letter-spacing: calc-em(1);
+  color: #fff;
 }
 
-a{
-	&:link {
-		color:$linksColor;
-	}
-	&:visited {
-		color:adjust-saturation($linksColor, -50%);
-	}
-	&:hover {
-		color:tint($linksColor, 100%);
-	}
-	&:active {
-		color:$linksColor;
-	}
+a {
+  &:link {
+    color: $linksColor;
+  }
+  &:visited {
+    color: adjust-saturation($linksColor, -50%);
+  }
+  &:hover {
+    color: tint($linksColor, 100%);
+  }
+  &:active {
+    color: $linksColor;
+  }
 }
 
-.titulo-site{
-	font-size:calc-em(50);
-	line-height: calc-em(32);
-	margin:calc-em(20) 0;
-	font-weight: bold;
+.titulo-site {
+  font-size: calc-em(50);
+  line-height: calc-em(32);
+  margin: calc-em(20) 0;
+  font-weight: bold;
 }
 
-.subtitulo-site{
-	margin:calc-em(30) 0;
+.subtitulo-site {
+  margin: calc-em(30) 0;
 }
 
-img{
-	display: inline;
-	float: left;
-	margin: 10px $margemEntreImagens;
+img {
+  display: inline;
+  float: left;
+  margin: 10px $margemEntreImagens;
 }
 
-
-.author{
-	text-align: center;
-	display: block;
-	margin:calc-em(20) 0;
+.author {
+  text-align: center;
+  display: block;
+  margin: calc-em(20) 0;
 }
-
 
 //Media Queries
 @import "../media_queries/max_320.scss";
