@@ -1,0 +1,33 @@
+{
+  "display": "standalone",
+  "name": "Responsive Image Gallery",
+  "short_name": "Responsive Gallery",
+  "description": "CSS Responsive Image Gallery",
+  "start_url": "/responsive-image-gallery/",
+  "theme_color": "#000",
+  "background_color": "#161614",
+  "icons": [
+    {
+      "src": "img/touch/chrome-touch-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/touch/chrome-touch-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "img/touch/chrome-touch-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/touch/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
